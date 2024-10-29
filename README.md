@@ -31,8 +31,9 @@ This extension is compatible with Magento 2.4.X (PHP - 8.1 - 8.3) version.
 
 Easy installation process with step-by-step instructions provided for hassle-free setup.
 ~~~~~~~~~~~~~~~~~~~~~
-php bin/magento module:enable mavenbird/module-admincategoryproductlink
+php bin/magento module:enable mavenbird/module-admin-category-product-link
 php bin/magento setup:upgrade
+php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
 php bin/magento cache:flush
 Manual Installation:
@@ -42,8 +43,9 @@ Download the latest release from GitHub releases.
 ## Upgrade/Update Module:
 Run the following command in Magento 2 root folder for easy update -
 ~~~~~~~~~~~~~~~~~~~~~
-php bin/magento module:enable mavenbird/module-admincategoryproductlink
+php bin/magento module:enable mavenbird/module-admin-category-product-link
 php bin/magento setup:upgrade
+php bin/magento setup:di:compile
 php bin/magento setup:static-content:deploy
 php bin/magento cache:flush
 ~~~~~~~~~~~~~~~~~~~~~
