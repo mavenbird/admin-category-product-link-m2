@@ -3,7 +3,6 @@
 * Upgraded for compatibility with Magento 2.4.8-p3.
 * Compatible with PHP version 8.4.
   
-=============
 1.1.0 - September 1, 2024
 =============
 * Minor Bug Fixes
@@ -41,3 +40,4 @@
 =============
 
 * Release Initial Version.
+
